@@ -1,0 +1,259 @@
+/*import de fonte do google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*estilização para toda página*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/*dimensões do logo*/
+#logo {
+    height: 148px;
+    margin-top: 1.4cm;
+    margin-left: 6cm;
+}
+
+/*estilização do menu de links e logo*/
+#menu {
+    font-size: 20px;
+    list-style: none;
+    /* Ficar um do lado do outro*/
+    display: flex;
+    /*gap: Espaço entre palavras */
+    gap: 2cm;
+    margin-top: 0.5cm;
+    margin-left: 990px;
+    margin-right: 200px;
+}
+
+/*links já visitados ficam na cor preta*/
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/*quando passa o mouse por cima de links com id "opçoes" fica de cor branca*/
+#opçoes:hover {
+    transition: all 0.5s ease;
+    color: white;
+}
+
+/*estilização da barra de navegação*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* vh: viewport height -> altura do topo da página */
+    height: 100px;
+    background-color: rgb(202, 199, 199);
+}
+
+/*estilização dos parágrafos*/
+#paragrafo {
+    font-size: 20px;
+    width: 700px;
+    height: 300px;
+    margin-left: 250px;
+    text-align: justify;
+}
+
+/*estilização da div "sobre"*/
+#sobre {
+    margin-top: 200px;
+    margin-left: -1330px;
+}
+
+/*estilização da parte das notícias*/
+#noticias {
+    margin-top: 150px;
+    text-align: center;
+}
+
+/*estilização da div "imagens*/
+#imagens {
+    position: absolute;
+    position: absolute;
+    top: 35%;
+    margin-left: 1050px;
+}
+
+/*media queries*/
+@media (max-width: 1700px) {
+    #paragrafo {
+        width: 600px;
+    }
+
+    #imagens {
+        top: 35%;
+        margin-left: 960px;
+    }
+
+    #menu {
+        margin-right: -9.5cm;
+    }
+}
+
+@media (max-width: 1400px) {
+    #menu {
+        margin-right: -250px;
+    }
+
+    #sobre {
+        margin-left: -500px;
+    }
+
+    #paragrafo {
+        margin-left: 350px;
+    }
+
+    #imagens {
+        margin-top: 500px;
+        margin-left: 300px;
+    }
+
+    #noticias {
+        margin-top: 450px;
+        margin-left: 30px;
+    }
+
+    th {
+        background-color: #279629;
+        padding: 8px;
+        margin-right: 30px;
+    }
+
+    td {
+        color: white;
+        padding: 8px;
+
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    table {
+        margin-left: 380px;
+    }
+}
+
+/*estilização do botão de login*/
+#login {
+    margin-top: -5px;
+    background-color: rgb(24, 119, 24);
+    border: 0;
+    border-radius: 50px;
+    width: 90px;
+    height: 40px;
+    font-size: large;
+}
+
+/*estilização do botão "Saiba Mais"*/
+#btnNoticias {
+    background-color: rgb(24, 119, 24);
+    border: 0;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    margin-bottom: 100px;
+}
+
+/*mudar cor da fonte dos botões*/
+#btn {
+    color: white;
+}
+
+/*Estilização formulários*/
+#form {
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 40px;
+    border: solid rgb(24, 119, 24) 2px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 50px;
+    font-size: large;
+}
+
+/*Estilização dos campos do formulário*/
+option,
+input,
+select {
+    width: 250px;
+    font-size: medium;
+}
+
+/*Estilização do botão*/
+#enviar {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(25, 146, 25);
+    border: 0;
+    border-radius: 50px;
+    font-size: large;
+    color: white;
+}
+#submit{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(25, 146, 25);
+    border: 0;
+    border-radius: 50px;
+    font-size: large;
+    color: white;
+}
+/*Estilização tabela pontuação*/
+th {
+    background-color: #279629;
+    padding: 8px;
+    margin-right: 30px;
+}
+
+td {
+    color: white;
+    padding: 8px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+tr {
+    background-color: rgb(110, 110, 110);
+}
+
+table {
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 650px;
+}
+
+#link {
+    text-decoration: underline;
+    color: #279629;
+}
+
+#text_tabela{
+    margin-top: 50px;
+    margin-left: 700px;
+}
+#h3_noticias{
+    margin-top: 60px;
+}
+#select_noticias{
+    margin-top: 50px;
+}
