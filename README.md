@@ -1,4 +1,4 @@
-# SiteGauchao -> Gabriel Pacheco e Kauan Machado (2M)
+# SiteGauchao 
 
 Trabalho: CRUD com PHP, HTML, CSS e MySQL Site
 
